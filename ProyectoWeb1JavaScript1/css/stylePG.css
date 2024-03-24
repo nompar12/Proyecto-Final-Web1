@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-image: url("../img/bannerPrehome.jpg"); 
+    background-position: -700px;
+    padding: 180px 20px; 
+    color: rgb(13, 27, 216);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-family: Arial, sans-serif;
+  }
+  .volver {
+    text-decoration: none; 
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 123, 255, 0.8); 
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    font-size: 24px;
+    line-height: 60px;  
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .volver:hover {
+    background-color: rgba(0, 94, 196, 0.8); }
+  
+  .header-2 {
+    background-color: rgb(255, 255, 255);
+  
+    color: #000;
+    padding: 10px;
+  }
+  .precio {
+    color: black; 
+    background-color: rgba(0, 123, 255, 0.8); 
+    padding: 5px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+  }
+
+  .logo {
+    display: inline-block; 
+  }
+  .logo img {
+    height: auto;
+    width: 500px; 
+  }
+  .title {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 1200px;
+  }
+  .container1{
+    width: 200%;
+    margin: 20px auto;
+  }
+  .moto {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .moto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+     
+  .volverArriba {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 123, 255, 0.8); 
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    font-size: 24px;
+    line-height: 60px; 
+    text-align: center; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .volverArriba:hover {
+    background-color: rgba(0, 94, 196, 0.8); }
+
+
+footer.container-fluid {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px; 
+  text-align: center;
+}
+
+
+footer a {
+  color: #007bff; 
+  text-decoration: none; 
+  margin: 0 10px; 
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
+
+
+footer img {
+  width: 30px; 
+  margin: 0 5px; 
+}
+
+
+footer small {
+  display: block;
+  margin-top: 10px;
+}
+.comprar{
+
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.comprar:hover,
+.comprar:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.comprar:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.comprar:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}

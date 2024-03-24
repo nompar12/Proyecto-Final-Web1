@@ -8,19 +8,20 @@
 </head>
 <body>
 
-<header>
+<header class="header-1">
   <div class="logo">
     <img src="../img/logo.jpg" alt="Logo">
   </div>
+  
 </header>
 
 <header class="header-2">   
   <div class="nav-container"> 
     <nav>
       <ul>
-        <li><a href="SAC.html">SERVICIO AL CLIENTE</a></li>
-        <li><a href="#">MEDIOS DE PAGO</a></li>
-        <li><a href="#">INFORMACION AL CLIENTE</a></li>
+        <li><a href="https://www.incolmotos-yamaha.com.co/agendamiento/?rid=ser-tec-centro">SERVICIO AL CLIENTE</a></li>
+        <li><a href="https://www.yamahamotor-financiera.com.co/">MEDIOS DE PAGO</a></li>
+        <li><a href="https://www.incolmotos-yamaha.com.co/servicios-yamaha/">INFORMACION AL CLIENTE</a></li>
       </ul>
     </nav>
   </div>
@@ -30,42 +31,52 @@
   <div class="form-container">
     <div class="form-toggle"></div>
     <div id="login-form">
-      <h2>Iniciar sesión</h2>
+      <h2 class="Inicio">Iniciar sesión</h2>
       <form id="loginForm" onsubmit="return loginUser()">
         <input type="text" id="username" name="username" placeholder="Nombre de usuario" required>
         <input type="password" id="password" name="password" placeholder="Contraseña" required>
-        <input type="submit" value="Iniciar sesión">
+        <input type="submit" class="Inicio2" value="Iniciar sesión">
       </form>
       <p id="loginMessage" class="hidden"></p>
     </div>
     <div id="register-form" style="display: none;">
-      <h2>Registrarse</h2>
+      <h2 class="Inicio">Registrarse</h2>
       <form action="#" method="post">
         <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
         <input type="text" id="username_reg" name="username" placeholder="Nombre de usuario" required>
         <input type="password" id="password_reg" name="password" placeholder="Contraseña" required>
-        <input type="submit" value="Registrarse">
+        <input type="submit" class="Inicio2" value="Registrarse">
       </form>
     </div>
-    <div class="botones">
-    <button  onclick="toggleForm('login')">Iniciar sesión</button>
-    <button onclick="toggleForm('register')">Registrarse</button>
+    <div >
+    <p class="botones" onclick="toggleForm('login')">Iniciar sesión</p>
+    <p class="botones" onclick="toggleForm('register')">Registrarse</p>
   </div>
   </div>
 </div>
 
-<footer>
+
   <div id="image-container">
-    <img class="image" src="../img/Xt.jpeg" alt="Imagen 1">
-    <img class="image" src="../img/DT150.jpg" alt="Imagen 2">
-    <img class="image" src="../img/Xt.jpeg" alt="Imagen 3">
-    <img class="image" src="../img/YBR.jpg" alt="Imagen 4">
-    <img class="image" src="../img/YCZ110.png" alt="Imagen 5">
-    <img class="image" src="../img/YZ.jpg" alt="Imagen 6">
+    <img class="image" src="../img/Dt.jpeg" alt="Imagen 1">
+    <img class="image" src="../img/Tenere.jpeg" alt="Imagen 2">
+    <img class="image" src="../img/YZ.jpg" alt="Imagen 3">
+    <img class="image" src="../img/R7.jpg" alt="Imagen 4">
   </div>
-  <div class="arrow left" onclick="changeImage(-1)">&#10094;</div>
-  <div class="arrow right" onclick="changeImage(1)">&#10095;</div>
-</footer>
+  <div class="arrow left" onclick="changeImage(-1)">←</div>
+  <div class="arrow right" onclick="changeImage(1)">→</div>
+
+<footer class="container-fluid">
+  <span>Línea de atención al cliente</span>
+  <a href="tel:+018000939262" class="tel">018000939262</a>
+  <a href="mailto:info@incolmotos-yamaha.com.co" class="mail">info@incolmotos-yamaha.com.co</a>
+  <div class="social-link mobile-social">																																																																						</div>			
+  <small>Incolmotos Yamaha COLOMBIA Todos los derechos reservados | <a href="https://www.incolmotos-yamaha.com.co/terminos-y-condiciones/">Ver términos y condiciones</a> | <a href="#">Mapa del sitio</a>
+  Incolmotos Yamaha S.A. Nit. 890916911-6 Km. 20 autopista norte, costado oriental, vía Girardota.</small>				
+  <a href="https://twitter.com/yamahacolombia" target="_blank"><img src="https://www.incolmotos-yamaha.com.co/wp-content/themes/yamaha/img/twitter.svg" alt="image"></a>
+  <a href="https://www.facebook.com/yamahamotorcolombia" target="_blank"><img src="https://www.incolmotos-yamaha.com.co/wp-content/themes/yamaha/img/facebook.svg" alt="image"></a>
+  <a href="https://www.youtube.com/user/yamahamotorcolombia" target="_blank"><img src="https://www.incolmotos-yamaha.com.co/wp-content/themes/yamaha/img/youtube.svg" alt="image"></a>
+  <a href="http://instagram.com/yamahacolombia" target="_blank"><img src="https://www.incolmotos-yamaha.com.co/wp-content/themes/yamaha/img/instagram.svg" alt="image"></a>
+  </footer>	
 
 <script src="../js/javaScript.js">
 

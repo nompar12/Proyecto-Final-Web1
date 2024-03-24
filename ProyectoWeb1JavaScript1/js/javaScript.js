@@ -17,7 +17,7 @@ function toggleForm(formType) {
       document.getElementById("loginMessage").classList.remove("hidden");
       
       
-      window.location.href = "ddei.html";
+      window.location.href = "PG.html";
       
       return false; 
     } else {
@@ -50,5 +50,3 @@ function toggleForm(formType) {
     currentImageIndex += direction;
     showImage(currentImageIndex);
   }
-
-  showImage(currentImageIndex);
