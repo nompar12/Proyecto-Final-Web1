@@ -50,3 +50,6 @@ function toggleForm(formType) {
     currentImageIndex += direction;
     showImage(currentImageIndex);
   }
+  document.addEventListener("DOMContentLoaded", function() {
+    showImage(0);
+  });
