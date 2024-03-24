@@ -51,5 +51,5 @@ function toggleForm(formType) {
     showImage(currentImageIndex);
   }
   document.addEventListener("DOMContentLoaded", function() {
-    showImage(0);
+    showImage(1);
   });
